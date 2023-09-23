@@ -1,0 +1,9 @@
+/* Style for open status rows (green background) */
+.row-open {
+  background-color: #4caf50; /* Green color */
+}
+
+/* Style for close status rows (red background) */
+.row-close {
+  background-color: #f44336; /* Red color */
+}

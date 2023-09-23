@@ -1,0 +1,80 @@
+/* CustomTable.css */
+
+/* Custom table container styles */
+.custom-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .custom-card-body {
+    padding: 0;
+  }
+  
+  /* Custom table styles */
+  .custom-table {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .custom-table .react-bs-table-container {
+    border: 1px solid #e1e1e1;
+  }
+  
+  .custom-table .react-bs-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: auto;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .custom-table th {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .custom-table th,
+  .custom-table td:first-child {
+    border-left: 1px solid #e1e1e1;
+  }
+  
+  .custom-table th:last-child,
+  .custom-table td:last-child {
+    border-right: 1px solid #e1e1e1;
+  }
+  
+  /* Custom button styles */
+  .custom-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .custom-button.call-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .custom-button.register-button {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .custom-button.call-button:hover,
+  .custom-button.register-button:hover {
+    opacity: 0.8;
+  }
+  

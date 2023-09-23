@@ -1,0 +1,61 @@
+/* Header Container */
+.custom-navbar {
+  background-color: #78b2ec; /* Set your desired background color */
+  transition: background-color 0.3s ease;
+}
+
+/* Navigation Links */
+.custom-nav {
+  margin-left: auto; /* Push links to the right */
+}
+
+/* Custom Navbar Link Styles */
+.custom-nav-link {
+  font-size: 18px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the links bold */
+  color: #333; /* Set the link color */
+  text-transform: uppercase; /* Convert text to uppercase (optional) */
+  margin-right: 15px; /* Add spacing between links */
+}
+
+
+.custom-nav-link:hover {
+  color: #007bff; /* Link color on hover */
+}
+
+/* Dropdown Links */
+.custom-nav-link.dropdown-toggle::after {
+  content: none; /* Remove the default dropdown indicator */
+}
+
+/* Admin Panel Dropdown */
+.custom-nav-link.dropdown-toggle {
+  color: #343a40; /* Dropdown link color */
+}
+
+/* Admin Panel Dropdown Items */
+.custom-nav-link.dropdown-item {
+  color: #343a40; /* Dropdown item color */
+  transition: color 0.3s ease;
+}
+
+.custom-nav-link.dropdown-item:hover {
+  color: #007bff; /* Dropdown item color on hover */
+}
+.header{
+  margin-bottom : 10px;
+}
+
+/* Header.css */
+/* Add these styles to reduce the image size */
+.custom-navbar .navbar-brand img {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Maintain aspect ratio */
+}
+
+/* Add styles for "Computer Seekho" text */
+.custom-navbar .navbar-brand .logo-text {
+  font-weight: bold;
+  color: black; /* Adjust the color as needed */
+  margin-top: 10px; /* Add spacing between logo and text */
+}

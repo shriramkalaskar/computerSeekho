@@ -1,0 +1,85 @@
+/* Dynamic Animation */
+.animated-footer {
+    transition: background-color 0.3s ease; /* Smoothly transition background color */
+  }
+  
+  .animated-footer:hover {
+    background-color: #444; /* New background color on hover */
+  }
+  
+  /* Social Icons Animation */
+  .footer-social-icons a {
+    transition: color 0.3s ease; /* Smoothly transition icon color */
+  }
+  
+  .footer-social-icons a:hover {
+    color: #ff9900; /* New icon color on hover */
+  }
+  
+  /* Links Animation */
+  .footer-links a {
+    transition: color 0.3s ease; /* Smoothly transition link color */
+  }
+  
+  .footer-links a:hover {
+    color: #ff9900; /* New link color on hover */
+  }
+  
+  /* Copyright Animation */
+  .footer-copy {
+    transition: color 0.3s ease; /* Smoothly transition text color */
+  }
+  
+  .footer-copy:hover {
+    color: #ff9900; /* New text color on hover */
+  }
+
+  .animated-footer {
+    background-color: #f59761; /* Initial background color */
+    transition: background-color 0.3s ease; /* Smoothly transition background color */
+  }
+  
+  .animated-footer:hover {
+    background-color: #f0d17a; /* New background color on hover */
+  }
+  
+
+  /* Animated Color List */
+.animated-color-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .animated-color-list li {
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.5s ease forwards, fadeIn 0.5s ease forwards;
+  }
+  
+  @keyframes slideIn {
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Hover Animation */
+  .animated-color-list li:hover {
+    color: #ff9900;
+  }
+  
+
+  .footer{
+    margin-top: 100px;
+  }

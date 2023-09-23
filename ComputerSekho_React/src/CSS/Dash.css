@@ -1,0 +1,54 @@
+/* Add this CSS to your Dash.css or a separate CSS file */
+
+/* Style the dropdown container */
+.button-container {
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Style the dropdown button */
+.dropdown-toggle {
+  background-color: #007bff; /* Change the background color */
+  color: #fff; /* Change the text color */
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+  border: none;
+  border-radius: 5px;
+  background-color: #fff; /* Change the background color */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Style the dropdown items */
+.dropdown-item {
+  color: #14a6b0; /* Change the text color */
+  font-weight: bold; /* Make the text bold */
+  transition: background-color 0.3s;
+}
+
+/* Style the dropdown items on hover */
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+/* Style the selected option in the button */
+.dropdown-toggle::after {
+  border-top: 0.3em solid #fff; /* Change the arrow color */
+}
+
+/* Style the links inside the dropdown items */
+.dropdown-item a {
+  color: #1997d5; /* Change the link text color */
+  text-decoration: none;
+  font-weight: bold; /* Make the link text bold */
+}
+
+/* Style the links inside the dropdown items on hover */
+.dropdown-item a:hover {
+  text-decoration: underline;
+}

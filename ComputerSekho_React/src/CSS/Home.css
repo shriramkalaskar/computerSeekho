@@ -1,0 +1,77 @@
+/* Global Styles */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    margin-top: 30px;
+  }
+  
+  /* Home Component Styles */
+  .col-md-12.text-center img {
+    max-width: 100%;
+  }
+  
+  /* Upcourses Component Styles */
+  h2 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #08386a;
+    color: rgb(244, 159, 159);
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #edbebe;
+  }
+  
+  tbody tr:hover {
+    background-color: #ff9900;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Table Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  tbody tr {
+    animation: fadeIn 0.5s ease;
+  }
+  /* Global Styles */
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+/* Home Component Styles */
+.col-md-12.text-center img {
+  max-width: 100%;
+  display: block; /* Add this to make the image a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Rest of your CSS styles */

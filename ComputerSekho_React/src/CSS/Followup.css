@@ -1,0 +1,18 @@
+/* Followup.css */
+
+/* Style for table headers */
+.followup-table th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Style for table rows */
+  .followup-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .followup-table tbody tr:hover {
+    background-color: #cceeff;
+  }
+  
